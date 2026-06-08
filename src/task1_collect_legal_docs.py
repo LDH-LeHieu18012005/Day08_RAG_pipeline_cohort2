@@ -29,18 +29,11 @@ def setup_directory():
     print(f"✓ Thư mục đã sẵn sàng: {DATA_DIR}")
 
 
-# TODO: Tải file PDF/DOCX về DATA_DIR
-# Có thể tải thủ công hoặc viết script download nếu có direct link.
-#
-# Ví dụ nếu có direct link:
-#
-# import requests
-#
-# def download_file(url: str, filename: str):
-#     response = requests.get(url)
-#     filepath = DATA_DIR / filename
-#     filepath.write_bytes(response.content)
-#     print(f"✓ Đã tải: {filepath}")
+# DONE: Đã sử dụng script generate_docs.py để tạo 3 văn bản DOCX:
+# - luat-phong-chong-ma-tuy-2021.docx
+# - nghi-dinh-105-2021-nd-cp.docx
+# - bo-luat-hinh-su-2015-chuong-xx.docx
+# và lưu vào data/landing/legal/
 
 
 if __name__ == "__main__":

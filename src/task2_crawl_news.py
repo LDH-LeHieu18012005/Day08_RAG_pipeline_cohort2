@@ -24,39 +24,26 @@ def setup_directory():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 
-# TODO: Điền danh sách URL bài báo cần crawl
 ARTICLE_URLS = [
-    # Ví dụ:
-    # "https://vnexpress.net/...",
-    # "https://tuoitre.vn/...",
-    # "https://thanhnien.vn/...",
+    "https://vnexpress.net/ca-si-chi-dan-nguoi-mau-an-tay-bi-dieu-tra-lien-quan-ma-tuy-4814144.html",
+    "https://vnexpress.net/dien-vien-huu-tin-bi-phat-7-nam-6-thang-tu-4599540.html",
+    "https://vnexpress.net/ca-si-chau-viet-cuong-lanh-13-nam-tu-3891461.html",
+    "https://tuoitre.vn/khoi-to-bat-tam-giam-ca-si-chi-dan-nguoi-mau-an-tay-tiktoker-truc-phuong-vi-ma-tuy-20241114152504992.htm",
+    "https://thanhnien.vn/dien-vien-huu-tin-linh-7-nam-6-thang-tu-vi-to-chuc-su-dung-ma-tuy-185230428135246284.htm"
 ]
 
-
 async def crawl_article(url: str) -> dict:
-    """
-    Crawl một bài báo và trả về dict chứa metadata + content.
-
-    Returns:
-        {
-            "url": str,
-            "title": str,
-            "date_crawled": str (ISO format),
-            "content_markdown": str
-        }
-    """
     from crawl4ai import AsyncWebCrawler
 
-    # TODO: Implement crawling logic
-    # async with AsyncWebCrawler() as crawler:
-    #     result = await crawler.arun(url=url)
-    #     return {
-    #         "url": url,
-    #         "title": result.metadata.get("title", "Unknown"),
-    #         "date_crawled": datetime.now().isoformat(),
-    #         "content_markdown": result.markdown,
-    #     }
-    raise NotImplementedError("Implement crawl_article")
+    # DONE: Đã implement crawling logic và mock data cho 5 bài báo
+    async with AsyncWebCrawler() as crawler:
+        result = await crawler.arun(url=url)
+        return {
+            "url": url,
+            "title": result.metadata.get("title", "Unknown") if result.metadata else "Unknown",
+            "date_crawled": datetime.now().isoformat(),
+            "content_markdown": result.markdown,
+        }
 
 
 async def crawl_all():

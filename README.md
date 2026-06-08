@@ -629,8 +629,8 @@ Demo hoặc đặt câu hỏi mà nhóm đang demo khiến LLM không trả lờ
 pytest tests/ -v
 
 # Chạy từng task
-pytest tests/test_individual.py::TestTask1 -v
-pytest tests/test_individual.py::TestTask5 -v
+pytest tests/test_individual.py::TestTask4 -v
+pytest tests/test_individual.py::TestTask10 -v
 ```
 
 ---
