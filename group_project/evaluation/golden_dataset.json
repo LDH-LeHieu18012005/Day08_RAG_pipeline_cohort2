@@ -1,17 +1,77 @@
 [
   {
-    "question": "Hình phạt cho tội tàng trữ trái phép chất ma tuý theo Điều 249 Bộ luật Hình sự?",
-    "expected_answer": "Phạt tù từ 1 đến 5 năm đối với trường hợp tàng trữ từ 1g đến dưới 5g heroin hoặc cocaine, hoặc chất ma tuý khác với khối lượng tương đương.",
-    "expected_context": "Bộ luật Hình sự 2015, Điều 249"
+    "question": "Hinh phat co ban cho toi san xuat trai phep chat ma tuy theo Dieu 248 la gi?",
+    "expected_answer": "Nguoi san xuat trai phep chat ma tuy duoi bat ky hinh thuc nao co the bi phat tu tu 02 nam den 07 nam.",
+    "expected_context": "bo-luat-hinh-su-2015-chuong-xx.md Dieu 248"
   },
   {
-    "question": "Luật Phòng chống ma tuý 2021 quy định những hình thức cai nghiện nào?",
-    "expected_answer": "Cai nghiện tự nguyện tại gia đình, cai nghiện tự nguyện tại cộng đồng, cai nghiện tự nguyện tại cơ sở cai nghiện, và cai nghiện bắt buộc tại cơ sở cai nghiện.",
-    "expected_context": "Luật Phòng chống ma tuý 2021, Chương V"
+    "question": "Dieu 248 quy dinh khung tang nang 07 den 15 nam tu trong nhung truong hop nao?",
+    "expected_answer": "Khung 07 den 15 nam ap dung khi co to chuc, pham toi 02 lan tro len, loi dung chuc vu quyen han, hoac loi dung danh nghia co quan to chuc.",
+    "expected_context": "bo-luat-hinh-su-2015-chuong-xx.md Dieu 248"
   },
   {
-    "question": "Danh mục các chất ma tuý thuộc nhóm I theo quy định pháp luật Việt Nam gồm những chất nào?",
-    "expected_answer": "Nhóm I gồm các chất ma tuý tuyệt đối cấm sử dụng trong y học và đời sống, bao gồm heroin, cocaine, methamphetamine, MDMA (ecstasy), cannabis (cần sa), và các chất tương tự.",
-    "expected_context": "Nghị định 57/2022/NĐ-CP, Phụ lục I"
+    "question": "Toi tang tru trai phep chat ma tuy theo Dieu 249 co muc phat co ban nao?",
+    "expected_answer": "Nguoi tang tru trai phep chat ma tuy khong nham muc dich mua ban, van chuyen hoac san xuat co the bi phat tu tu 01 nam den 05 nam.",
+    "expected_context": "bo-luat-hinh-su-2015-chuong-xx.md Dieu 249"
+  },
+  {
+    "question": "Dieu 249 de cap den nhung toi nao lien quan lam can cu tai pham hoac chua xoa an tich?",
+    "expected_answer": "Dieu 249 nhac den cac toi quy dinh tai cac dieu 248, 250, 251 va 252 cua Bo luat Hinh su.",
+    "expected_context": "bo-luat-hinh-su-2015-chuong-xx.md Dieu 249"
+  },
+  {
+    "question": "Pham vi dieu chinh cua Luat Phong chong ma tuy 2021 gom nhung noi dung nao?",
+    "expected_answer": "Luat quy dinh ve phong, chong ma tuy, quan ly nguoi su dung trai phep chat ma tuy, cai nghien ma tuy, trach nhiem cua ca nhan, gia dinh, co quan, to chuc, quan ly nha nuoc va hop tac quoc te ve phong chong ma tuy.",
+    "expected_context": "luat-phong-chong-ma-tuy-2021.md Dieu 1"
+  },
+  {
+    "question": "Theo Luat Phong chong ma tuy 2021, chat ma tuy duoc hieu nhu the nao?",
+    "expected_answer": "Chat ma tuy la chat gay nghien, chat huong than duoc quy dinh trong cac danh muc chat ma tuy do Chinh phu ban hanh.",
+    "expected_context": "luat-phong-chong-ma-tuy-2021.md Dieu 2"
+  },
+  {
+    "question": "Theo Luat Phong chong ma tuy 2021, nguoi nghien ma tuy la ai?",
+    "expected_answer": "Nguoi nghien ma tuy la nguoi su dung chat ma tuy, thuoc gay nghien, thuoc huong than va bi le thuoc vao cac chat nay.",
+    "expected_context": "luat-phong-chong-ma-tuy-2021.md Dieu 2"
+  },
+  {
+    "question": "Nghi dinh 105/2021/ND-CP huong dan nhung nhom noi dung nao cua Luat Phong chong ma tuy?",
+    "expected_answer": "Nghi dinh huong dan ve co quan chuyen trach phong chong toi pham ve ma tuy, kiem soat cac hoat dong hop phap lien quan den ma tuy va quan ly nguoi su dung trai phep chat ma tuy.",
+    "expected_context": "nghi-dinh-105-2021-nd-cp.md Dieu 1"
+  },
+  {
+    "question": "Doi tuong ap dung cua Nghi dinh 105/2021/ND-CP la nhung ai?",
+    "expected_answer": "Nghi dinh ap dung doi voi co quan, to chuc, ca nhan co lien quan den cong tac phong, chong ma tuy tai Viet Nam.",
+    "expected_context": "nghi-dinh-105-2021-nd-cp.md Dieu 2"
+  },
+  {
+    "question": "Nguon cua bai bao article_01 ve ca si Chi Dan va nguoi mau An Tay la trang nao?",
+    "expected_answer": "Nguon cua article_01 la VnExpress voi URL ve ca si Chi Dan va nguoi mau An Tay bi dieu tra lien quan ma tuy.",
+    "expected_context": "article_01.md VnExpress Chi Dan An Tay"
+  },
+  {
+    "question": "article_01 duoc crawl vao ngay nao?",
+    "expected_answer": "article_01 co metadata Crawled vao thoi diem 2026-06-08T11:43:50.316771.",
+    "expected_context": "article_01.md Crawled 2026-06-08"
+  },
+  {
+    "question": "Nhom tai lieu legal trong corpus gom nhung van ban nao?",
+    "expected_answer": "Corpus legal gom Bo luat Hinh su 2015 chuong XX, Luat Phong chong ma tuy 2021 va Nghi dinh 105/2021/ND-CP.",
+    "expected_context": "bo-luat-hinh-su-2015-chuong-xx.md luat-phong-chong-ma-tuy-2021.md nghi-dinh-105-2021-nd-cp.md"
+  },
+  {
+    "question": "Pipeline ca nhan dung nhung nhom tai lieu nao de tra loi cau hoi RAG?",
+    "expected_answer": "Pipeline su dung tai lieu phap luat ve ma tuy va cac bai bao tin tuc lien quan nghe si, duoc chuan hoa thanh markdown.",
+    "expected_context": "data/standardized/legal data/standardized/news"
+  },
+  {
+    "question": "Trong retrieval pipeline, nguon nao duoc uu tien khi hybrid search khong du diem?",
+    "expected_answer": "Khi hybrid search khong co ket qua phu hop hoac diem top result thap hon threshold, pipeline fallback sang PageIndex vectorless search.",
+    "expected_context": "task9_retrieval_pipeline.py pageindex fallback"
+  },
+  {
+    "question": "Generation co citation su dung chien luoc nao de tranh lost in the middle?",
+    "expected_answer": "Cac chunk sau retrieval duoc sap xep lai de dua chunk quan trong nhat len dau va chunk quan trong khac ve cuoi prompt, giam hien tuong lost in the middle.",
+    "expected_context": "task10_generation.py reorder_for_llm"
   }
 ]
